@@ -1,0 +1,1 @@
+# 用JavaScript实现的Bad Apple 字符动画
