@@ -98,12 +98,3 @@ function init() {
     }
     txtDiv.innerHTML = html;
 }
-
-// 获取图片
-function getImg(file) {
-    var reader = new FileReader();
-    reader.readAsDataURL(fileBtn.files[0]);
-    reader.onload = function () {
-        img.src = reader.result;
-    }
-}
