@@ -8,7 +8,7 @@ var index = 1;
 var flag = false;
 
 
-img.src = 'img/badapple00000.jpg'
+img.src = 'img/badapple00000.jpg';
 img.onload = init; // 图片加载完开始转换
 
 playBtn.onclick = function() {
